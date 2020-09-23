@@ -1,0 +1,11 @@
+<h1><%= @artist.name %>!</h1>
+
+<p>Age: <%= @artist.age %></p>
+<p>Title: <%= @artist.title %></p>
+
+<p>Instruments:</p>
+<ul><% @artist.instruments.each do |instrument| %>
+    <li><%= link_to(instrument.name, instrument_path(instrument)) %></li>
+<% end %></ul>
+<br>
+<%= link_to("Edit This Artist", edit_artist_path(@artist)) %>

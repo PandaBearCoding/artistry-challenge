@@ -11,6 +11,9 @@ After modifying the schema, these are your deliverables:
 
 1) As a user, I should be able to fill out a form to connect an artist with an instrument from the database. This form should be made with at least one dropdown (potentially two dropdowns). Upon successfully creating the association, I should be redirected to the artist's show page.
 
+-artist show page
+-new form for Artist that has dropdowns for Instrument
+
 2) In the artist's show page, I should be able to see the artist's age, title and name. I should also be able to see all the instruments that that specific artist plays.
 
 3) On the index page for an artist, there should be a list of all the artists' names. Clicking on one artist's name should take me to that artist's show page.
